@@ -29,11 +29,11 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='SeoulAPT' name='excel-direct.0v7py7x128mb8z13y8gx719c3jl2'>
-            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/jinyu/Desktop/BDA16/Tableau/Project/SeoulAPT.xlsx' interpretationMode='0' password='' server='' validate='no' />
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/jinyu/Desktop/BDA16/Tableau/Project/원본데이터/SeoulAPT.xlsx' interpretationMode='0' password='' server='' validate='no' />
           </named-connection>
         </named-connections>
         <relation connection='excel-direct.0v7py7x128mb8z13y8gx719c3jl2' name='Data' table='[Data$]' type='table'>
-          <columns gridOrigin='A1:R10001:no:A1:R10001:0' header='yes' outcome='2'>
+          <columns gridOrigin='A1:R10001:no:A1:R2147483647:0' header='yes' outcome='2'>
             <column datatype='integer' name='거래번호' ordinal='0' />
             <column datatype='date' name='거래일자' ordinal='1' />
             <column datatype='string' name='주소' ordinal='2' />
@@ -55,6 +55,20 @@
           </columns>
         </relation>
         <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Data]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>1</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:R10001:no:A1:R2147483647:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
           <metadata-record class='column'>
             <remote-name>거래번호</remote-name>
             <remote-type>20</remote-type>
@@ -68,6 +82,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
             </attributes>
+            <object-id>[Data_74DD0AAD7EBC4D35B2E15EF0848CEBBD]</object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>거래일자</remote-name>
@@ -82,6 +97,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
             </attributes>
+            <object-id>[Data_74DD0AAD7EBC4D35B2E15EF0848CEBBD]</object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>주소</remote-name>
@@ -97,6 +113,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
+            <object-id>[Data_74DD0AAD7EBC4D35B2E15EF0848CEBBD]</object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>시도</remote-name>
@@ -112,6 +129,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
+            <object-id>[Data_74DD0AAD7EBC4D35B2E15EF0848CEBBD]</object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>시군구</remote-name>
@@ -127,6 +145,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
+            <object-id>[Data_74DD0AAD7EBC4D35B2E15EF0848CEBBD]</object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>읍면동</remote-name>
@@ -142,6 +161,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
+            <object-id>[Data_74DD0AAD7EBC4D35B2E15EF0848CEBBD]</object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>번지</remote-name>
@@ -157,6 +177,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
+            <object-id>[Data_74DD0AAD7EBC4D35B2E15EF0848CEBBD]</object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>도로명</remote-name>
@@ -172,6 +193,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
+            <object-id>[Data_74DD0AAD7EBC4D35B2E15EF0848CEBBD]</object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>단지명</remote-name>
@@ -187,6 +209,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
+            <object-id>[Data_74DD0AAD7EBC4D35B2E15EF0848CEBBD]</object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>거래유형</remote-name>
@@ -202,6 +225,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
+            <object-id>[Data_74DD0AAD7EBC4D35B2E15EF0848CEBBD]</object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>건축년도</remote-name>
@@ -216,6 +240,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
             </attributes>
+            <object-id>[Data_74DD0AAD7EBC4D35B2E15EF0848CEBBD]</object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>층</remote-name>
@@ -230,6 +255,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
             </attributes>
+            <object-id>[Data_74DD0AAD7EBC4D35B2E15EF0848CEBBD]</object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>전용면적(㎡)</remote-name>
@@ -245,6 +271,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
             </attributes>
+            <object-id>[Data_74DD0AAD7EBC4D35B2E15EF0848CEBBD]</object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>전용면적(평)</remote-name>
@@ -260,6 +287,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
             </attributes>
+            <object-id>[Data_74DD0AAD7EBC4D35B2E15EF0848CEBBD]</object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>거래금액(만원)</remote-name>
@@ -274,6 +302,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
             </attributes>
+            <object-id>[Data_74DD0AAD7EBC4D35B2E15EF0848CEBBD]</object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>평단가(만원)</remote-name>
@@ -289,6 +318,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
             </attributes>
+            <object-id>[Data_74DD0AAD7EBC4D35B2E15EF0848CEBBD]</object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>경도</remote-name>
@@ -304,6 +334,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
             </attributes>
+            <object-id>[Data_74DD0AAD7EBC4D35B2E15EF0848CEBBD]</object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>위도</remote-name>
@@ -319,20 +350,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
             </attributes>
-          </metadata-record>
-          <metadata-record class='capability'>
-            <remote-name />
-            <remote-type>0</remote-type>
-            <parent-name>[Data]</parent-name>
-            <remote-alias />
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='integer' name='context'>1</attribute>
-              <attribute datatype='string' name='gridOrigin'>&quot;A1:R10001:no:A1:R2147483647:0&quot;</attribute>
-              <attribute datatype='boolean' name='header'>true</attribute>
-              <attribute datatype='integer' name='outcome'>2</attribute>
-            </attributes>
+            <object-id>[Data_74DD0AAD7EBC4D35B2E15EF0848CEBBD]</object-id>
           </metadata-record>
         </metadata-records>
       </connection>
@@ -380,7 +398,7 @@
           <object caption='Data' id='Data_74DD0AAD7EBC4D35B2E15EF0848CEBBD'>
             <properties context=''>
               <relation connection='excel-direct.0v7py7x128mb8z13y8gx719c3jl2' name='Data' table='[Data$]' type='table'>
-                <columns gridOrigin='A1:R10001:no:A1:R10001:0' header='yes' outcome='2'>
+                <columns gridOrigin='A1:R10001:no:A1:R2147483647:0' header='yes' outcome='2'>
                   <column datatype='integer' name='거래번호' ordinal='0' />
                   <column datatype='date' name='거래일자' ordinal='1' />
                   <column datatype='string' name='주소' ordinal='2' />
@@ -879,8 +897,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='21' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97712' id='20' param='vert' type-v2='layout-flow' w='98698' x='651' y='1144'>
+            <zone h='100000' id='23' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='22' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='88' h='12017' id='12' is-fixed='true' name='월거래량' show-title='false' w='21237' x='651' y='1144'>
                   <layout-cache cell-count-w='1' type-h='cell' type-w='cell' />
                   <zone-style>
@@ -1071,7 +1089,7 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='5' />
+      <active id='-1' />
       <simple-id uuid='{F511EB77-A2EA-4FAC-9C88-DEF22BC4A8DC}' />
     </window>
     <window class='worksheet' name='시트 5'>
